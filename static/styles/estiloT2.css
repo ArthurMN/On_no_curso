@@ -1,0 +1,284 @@
+*
+{margin: 0px;
+  padding: auto;
+}
+#header
+{
+    height: 150px;
+    background-color: #3350cb;
+}
+#logo
+{
+    position: absolute;
+    width: 238px;
+    height: 85.64px;
+    left: 800px;
+    top: 23px;
+}
+#titulo{
+  position: absolute;
+  width: 301px;
+  height: 78px;
+  left: 766px;
+  top: 205px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+  color: #3350cb;
+}
+#subtitulo{
+  position: absolute;
+  width: 1136px;
+  height: 152px;
+  left: 363px;
+  top: 355px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 59px;
+  text-align: center;
+  color: #3350cb;
+}
+
+/*Descrição dos campos*/
+#a1 {
+  position: absolute;
+  width: 285px;
+  height: 70px;
+  left: 430px;
+  top: 560px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #3350cb;
+}
+#a2{
+  position: absolute;
+  width: 363px;
+  left:330px;
+  height: 70px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #3350cb;
+  left: 420px;
+  top: 647px;;
+}
+#a3{
+  position: absolute;
+  width: 363px;
+  height: 70px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #3350cb;
+  left: 400px;
+  top: 729px;
+}
+#a4{
+  position: absolute;
+  width: 363px;
+  height: 70px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #3350cb;
+  left: 370px;
+  top: 811px;
+}
+  #a5{
+    position: absolute;
+    width: 363px;
+    height: 70px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #3350cb;
+    left: 334px;
+    top: 893px;
+  }
+  #a6{
+    position: absolute;
+    width: 363px;
+    height: 70px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #3350cb;
+    left: 398px;
+    top: 975px;
+  }
+
+/*Campos do formulário*/
+ #nome_curso {
+    position: absolute;
+    width: 583px;
+    height: 50px;
+    left: 750px;
+    top: 557px;
+    padding-left: 10px;
+    
+    background: #FFFFFF;
+    color:black;
+    border: 3px solid #3350CB;
+    box-sizing: border-box;
+    border-radius: 33.8991px;
+  }
+  #nome_facilitador {
+    position: absolute;
+    width: 583px;
+    height: 50px;
+    left: 750px;
+    top: 640px;
+    padding-left: 10px;
+
+    background: #FFFFFF;
+    color:black;
+    border: 3px solid #3350CB;
+    box-sizing: border-box;
+    border-radius: 33.8991px;
+  }
+  #link {
+    position: absolute;
+    width: 583px;
+    height: 50px;
+    left: 750px;
+    top: 725px;
+    padding-left: 10px;
+
+    background: #FFFFFF;
+    color:black;
+    border: 3px solid #3350CB;
+    box-sizing: border-box;
+    border-radius: 33.8991px;
+  }
+  #info {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 750px;
+    top: 805px;
+    padding-left: 10px;
+
+    background: #ffffff;
+    border: 3px solid #3350cb;
+    box-sizing: border-box;
+    border-radius: 33.8991px;
+  }
+  #valor {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 750px;
+    top: 890px;
+    padding-left: 10px;
+
+    background: #ffffff;
+    color:black;
+    border: 3px solid #3350cb;
+    box-sizing: border-box;
+    border-radius: 33.8991px;
+  }
+  #validacao {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 750px;
+    top: 975px;
+    padding-left: 10px;
+
+    background: #ffffff;
+    color:black;
+    border: 3px solid #3350cb;
+    box-sizing: border-box;
+    border-radius: 33.8991px;
+  }
+  #envio {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 792px;
+    top: 1194px;
+
+    background: #3350cb;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+  }
+  form input[type='text']:focus {
+    outline: 0;
+  }
+  form input[type='number']:focus {
+    outline: 0;
+  }
+  form input[type='datetime-local']:focus {
+    outline: 0;
+  }
+  form input[type='url']:focus {
+    outline: 0;
+  }
+/*rodapé*/
+#Rodape {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+
+  background-color: #3350cb;
+  color: white;
+  width: absolute;
+  position: absolute;
+  height: 133px;
+  left: 0px;
+  top: 1400px;
+  right: 0;
+}
+
+
+  

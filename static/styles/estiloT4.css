@@ -1,0 +1,90 @@
+*{
+
+  margin: 0px;
+  padding: auto;
+}
+#header
+{
+    height: 150px;
+    background-color: #3350cb;
+}
+#logo
+{
+  position: absolute;
+  width: 238px;
+  height: 85.64px;
+  left: 800px;
+  top: 23px;
+}
+#titulo{
+  
+  position: absolute;
+  width: 457px;
+  height: 65px;
+  left: 692px;
+  top: 311px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #3350CB;
+}
+#otimo{
+  position: absolute;
+  width: 256px;
+  height: 64px;
+  left: 792px;
+  top: 458px;
+  
+  background: #3350CB;
+  border: 4.74587px solid #3350CB;
+  border-radius: 33.8991px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+#outro{
+  position: absolute;
+  width: 298px;
+  height: 64px;
+  left: 769px;
+  top: 565px;
+  
+  background: #3350CB;
+  border: 4.74587px solid #3350CB;
+  border-radius: 33.8991px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+#Rodape {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+
+  background-color: #3350cb;
+  color: white;
+  width: absolute;
+  position: absolute;
+  height: 133px;
+  left: 0px;
+  top: 800px;
+  right: 0;
+}
