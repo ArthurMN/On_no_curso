@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <!--CSS-->
+     <link rel= "stylesheet" href= "{{ url_for('static',filename='styles/reset.css') }}">
+     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/global.css') }}">
+     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/base.css') }}">
+     <link rel="stylesheet" href= "{{ url_for('static',filename='style/estiloT4.css') }}">
+
+    <title>Tela4</title>
+  </head>
+  <body>
+    <div id="header">
+      <a href="{{url_for('homepage')}}">
+        <img id="logo" src="{{ url_for('static', filename='assets/logo_white.svg')}}" alt="Logo On No Curso" />
+      </a>
+    </div>
+    <h1 id="titulo">Curso publicado!</h1>
+    <input id="otimo" type="submit" name="acao1" value="Ótimo" />
+    <input id="outro" type="submit" name="acao2" value="Enviar outro" />
+    <h3 id="Rodape">
+      On No Curso: Facilitando a vida de estudantes e profissionais de
+      tecnologia.
+    </h3>
+  </body>
+</html>
