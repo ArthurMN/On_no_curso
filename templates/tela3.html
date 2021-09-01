@@ -32,9 +32,10 @@
             <h1>Cursos Disponíveis</h1>
             <span><img src="{{ url_for('static', filename='/assets/back-arrow.svg')}}" alt=""><a href="/">Voltar</a></span>
         </div>
+        {% for rows in rows %}
         <div class="cards-wrapper">
             <div class="card-container">
-                {% for rows in rows %}
+                
                 <div class="card-course">{{rows.nome_curso}}</div>
                 <div class="card-info-course">
                     <div class="card-infos">
@@ -44,10 +45,11 @@
                         <span>Oferecido por: {{rows.nome_facilitador}} </span>
                     </div>
                     <div class="card-footer"><a href="{{rows.link}}">{{rows.link}}</a></div>
-                {% endfor %}
+                
                 </div>
             </div>
         </div>
+        {% endfor %}
     </div>
 
     <div class="footer-wrapper"></div>
