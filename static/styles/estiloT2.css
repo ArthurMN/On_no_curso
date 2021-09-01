@@ -1,0 +1,187 @@
+*{
+  margin: 0px;
+  padding: auto;
+}
+#header{
+  width: 100%;
+  background-color: #3350cb;
+  height: 135px;
+}
+img{
+  position: relative;
+  margin-left: 42%;
+  margin-top: 20px;
+}
+#titulo{
+  margin-top: 205px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #3350CB;
+
+}
+#subtitulo{
+  margin-top: 72px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.125em;
+  line-height: 59px;
+  text-align: center;
+
+  color: #3350CB;
+}
+
+/*Campos do formulário*/
+#nome_curso {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  padding-left: 10px;
+  top: 740px;
+  
+  background: #FFFFFF;
+  color:black;
+  border: 3px solid #3350CB;
+  box-sizing: border-box;
+  border-radius: 33.8991px;
+}
+#nome_facilitador {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  top: 830px;
+  padding-left: 10px;
+
+  background: #FFFFFF;
+  color:black;
+  border: 3px solid #3350CB;
+  box-sizing: border-box;
+  border-radius: 33.8991px;
+}
+#link {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  top: 920px;
+  padding-left: 10px;
+
+  background: #FFFFFF;
+  color:black;
+  border: 3px solid #3350CB;
+  box-sizing: border-box;
+  border-radius: 33.8991px;
+}
+#info {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  top: 1010px;
+  padding-left: 10px;
+
+  background: #ffffff;
+  border: 3px solid #3350cb;
+  box-sizing: border-box;
+  border-radius: 33.8991px;
+}
+#valor {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  top: 1100px;
+  padding-left: 10px;
+
+  background: #ffffff;
+  color:black;
+  border: 3px solid #3350cb;
+  box-sizing: border-box;
+  border-radius: 33.8991px;
+}
+#validacao {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  top: 1190px;
+  padding-left: 10px;
+
+  background: #ffffff;
+  color:black;
+  border: 3px solid #3350cb;
+  box-sizing: border-box;
+  border-radius: 33.8991px;
+}
+#envio {
+  position: absolute;
+  width: 25%;
+  height: 60px;
+  margin-left: 40%;
+  top: 1350px;
+
+  background: #3350cb;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 1s;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
+}
+form input[type='text']:focus {
+  outline: 0;
+}
+form input[type='number']:focus {
+  outline: 0;
+}
+form input[type='datetime-local']:focus {
+  outline: 0;
+}
+form input[type='url']:focus {
+  outline: 0;
+}
+
+.form-names{
+
+  position: relative;
+  margin-top:140px;
+  left: 26%;
+  
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 90px;
+  
+
+  color: #3350CB;
+}
+
+#Rodape{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 59px;
+  text-align: center;
+
+  width: 100%;
+  background-color: #3350cb;
+  color:#FFFFFF;
+  height: 135px;
+  margin-top: 300px;
+}

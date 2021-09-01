@@ -1,0 +1,115 @@
+.wrapper-container{
+    width: 100%;
+    height: 100%;
+
+    max-width: 1080px;
+
+    margin: 0 auto;
+}
+
+.wrapper-container .title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 8rem;
+}
+
+.wrapper-container .title-container h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #3350CB;
+}
+
+.wrapper-container .title-container span{
+    align-self: flex-start;
+
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-container .title-container span a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+    color: #3350CB;
+
+    margin-left: 5px;
+
+}
+
+.wrapper-container .title-container span a:hover{
+    color: #5978FF;
+}
+
+
+
+/*cards*/
+
+.cards-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 13rem;
+}
+
+.cards-wrapper .card-container{
+    width: 100%;
+    height: 320px;
+    /* max-height: 320px; */
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.cards-wrapper .card-container:last-child{
+    margin-bottom: 30px;
+}
+
+.card-container .card-course{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #3350CB;
+
+    border: 2px solid #3350CB;
+    border-radius: 34px;
+}
+
+.card-container .card-info-course{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-left: 30px;
+}
+
+.card-info-course .card-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info-course .card-infos span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #3350CB;
+
+    margin-top: 5px;
+}
+
+.card-info-course .card-footer a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #3350CB;
+}
+

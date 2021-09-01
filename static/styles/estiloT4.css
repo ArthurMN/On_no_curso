@@ -1,0 +1,83 @@
+*{
+
+  margin: 0px;
+  padding: auto;
+}
+#header{
+  width: 100%;
+  background-color: #3350cb;
+  height: 135px;
+}
+img{
+  position: relative;
+  margin-left: 42%;
+  margin-top: 20px;
+}
+#titulo{
+  margin-top: 205px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #3350CB;
+
+}
+#otimo{
+  position: absolute;
+  width: 25%;
+  height: 60px;
+  margin-left: 38%;
+  top: 500px;
+
+  background: #3350cb;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 1s;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
+}
+#outro{
+  position: absolute;
+  width: 25%;
+  height: 60px;
+  margin-left: 38%;
+  top: 600px;
+
+  background: #3350cb;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 1s;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
+}
+
+#Rodape{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 59px;
+  text-align: center;
+
+  width: 100%;
+  background-color: #3350cb;
+  color:#FFFFFF;
+  height: 135px;
+  margin-top: 700px;
+}
