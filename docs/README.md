@@ -22,4 +22,4 @@ O front end foi desenvolvido utilizando as linguagens CSS e JavaScript, e para o
 Informações sobre a UML situam-se no diretório [UML](https://github.com/ArthurMN/On_no_curso/tree/main/docs/UML).
 
 ## Design   
-Informações sobre o design encontram-se no diretório [design]().	
+Informações sobre o design encontram-se no diretório [design](https://github.com/ArthurMN/On_no_curso/tree/main/docs/design).	
