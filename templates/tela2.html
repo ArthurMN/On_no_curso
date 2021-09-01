@@ -34,37 +34,21 @@
       <h3 id="a3">Link de cadastro:</h3>
       <h3 id="a4">Data e Hora:</h3>
       <h3 id="a5">Preço:</h3>
-      <h3 id="a6">Gera certificado?</h3>
+      <h3 id="a6">Validação:</h3>
     </div>
     <h3 id="Rodape">
       On No Curso: Facilitando a vida de estudantes e profissionais de
       tecnologia.
     </h3>
     <!--Campos do formulário-->
-    <form>
-      <input id="nome_curso" type="text" name="nome" placeholder="Nome..." />
-      <input
-        id="nome_facilitador"
-        type="text"
-        name="facilitador"
-        placeholder="Facilitador..."
-      />
-      <input id="link" type="url" name="inscricao" placeholder="Link..." />
-      <input id="info" type="datetime-local" name="informacao" />
-      <input
-        id="valor"
-        type="number"
-        name="preço"
-        placeholder="Preço em R$..."
-        min="0"
-      />
-      <input
-        id="validacao"
-        type="text"
-        name="certificado"
-        placeholder="Sim ou Não?"
-      />
+    <form action="{{url_for('register_page')}}" method="POST">
+      <input id="nome_curso" type="text" name="nome_curso" placeholder="Nome..." />
+      <input id="nome_facilitador"type="text" name="nome_facilitador" placeholder="Facilitador..."/>
+      <input id="link" type="url" name="link" placeholder="Link..." />
+      <input id="info" type="datetime-local" name="data" />
+      <input id="valor" type="number" name="preco" placeholder="Preço em R$..." min="0"/>
+      <input id="validacao" type="text" name="validacao" placeholder="Sim ou não" min="0"/>
+      <input id="envio" type="submit" name="acao" value="Enviar" />
     </form>
-    <input id="envio" type="submit" name="acao" value="Enviar" />
   </body>
 </html>
