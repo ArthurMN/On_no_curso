@@ -19,7 +19,7 @@ A arquitetura da API consiste no estilo REST que fornece padrões para a comunic
 O front end foi desenvolvido utilizando as linguagens CSS e JavaScript, e para o design das páginas da web, utilizou-se HTML.
 
 ## UML 
-Informações sobre a UML situam-se no diretório [UML]().
+Informações sobre a UML situam-se no diretório [UML](https://github.com/ArthurMN/On_no_curso/tree/main/docs/UML).
 
 ## Design   
 Informações sobre o design encontram-se no diretório [design]().	
