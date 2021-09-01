@@ -16,7 +16,7 @@ O projeto foi dividido em duas partes: a API que servirá como back end, que pro
 
 A arquitetura da API consiste no estilo REST que fornece padrões para a comunicação entre sistemas, onde os clientes enviam solicitações para recuperar ou modificar recursos e os servidores enviam respostas a elas. A API foi construída usando a linguagem Python com auxílio do framework Flask, capaz de receber requisições do tipo POST e enviar respostas no formato JSON.
 
-O front end foi desenvolvido utilizando as linguagens CSS e JavaScript, e para o design das páginas da web, utilizou-se HTML
+O front end foi desenvolvido utilizando as linguagens CSS e JavaScript, e para o design das páginas da web, utilizou-se HTML.
 
 ## UML 
 Informações sobre a UML situam-se no diretório [UML]().
