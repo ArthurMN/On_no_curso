@@ -2,19 +2,16 @@
 import sqlite3
 
 from werkzeug.utils import redirect
-from models import create_course, get_course
+from models import create_course
 from flask import Flask, render_template, url_for, request
 
-
-
 app = Flask(__name__)
-
 
 @app.route("/")
 def homepage():
     return render_template("tela1.html")
 
-@app.route('/tela2')
+@app.route('/pagina-de-cadastro')
 def register_page():
     return render_template("tela2.html")
 
@@ -31,7 +28,7 @@ def register():
     return redirect(url_for("publication_effected"))
 
 
-@app.route('/tela3')
+@app.route('/cursos-disponiveis')
 def list():
     con = sqlite3.connect("database.db")
     con.row_factory = sqlite3.Row
@@ -41,7 +38,7 @@ def list():
     return render_template("tela3.html", rows = rows)
 
 
-@app.route('/tela4', methods= ['POST','GET'])
+@app.route('/pagina-de-cadastro/subimissao-efetuada', methods= ['POST','GET'])
 def publication_effected():
     if request.method == 'POST':
         if request.form.get('acao1'):
