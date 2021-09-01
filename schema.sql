@@ -1,10 +1,12 @@
-drop table if exists facilitador;
+DROP TABLE IF EXISTS cursos;
 
-create table facilitador(
-	id integer primary key autoincrement,
-	nome_facilitador text not null,
-	nome_curso text not null,
-	preco float not null,
-	data datetime not null,
-	link text not null
+CREATE TABLE "cursos" (
+	"id"	INTEGER,
+	"nome_curso"	TEXT NOT NULL,
+	"nome_facilitador"	TEXT NOT NULL,
+	"preco"	REAL NOT NULL,
+	"data"	NUMERIC NOT NULL,
+	"link"	TEXT NOT NULL,
+	"validacao"	TEXT NOT NULL,
+	PRIMARY KEY("id")
 );
