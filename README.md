@@ -7,6 +7,8 @@ A equipe escolheu a área de soluções de negócios como base para o projeto, e
 A problemática gira em torno daquelas pessoas que buscam por cursos de tecnologia, porém têm dificuldades de encontrá-los visto que estes estão espalhados pela internet, e aí que entra o projeto de software, o qual tem o objetivo de unificar os cursos em um ambiente que facilita a busca do usuário ao limitá-la à base de dados da aplicação. Os cursos são cadastrados pelos seus facilitadores no software, onde o mesmo fornece informações para identificá-los ao máximo de modo que os alunos consigam entender seus propósitos, garantindo assim a conexão entre ambas as classes dos usuários.
 
 Em resumo, o software desenvolvido é responsável por guardar as informações dos cursos cadastrados e fornecê-las aos alunos através de uma interface simples.
+## Deploy
+O programa pode ser executado [aqui](https://onnocurso.herokuapp.com/).
 
 ## Documentação
 Toda a documentação do projeto encontra-se no diretório [docs](https://github.com/ArthurMN/On_no_curso/tree/main/docs).
