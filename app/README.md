@@ -1,4 +1,4 @@
-# Como executar aplicação no Windows
+# Como executar a aplicação no Windows
 Aqui se encontram os arquivos necessários para a execução do software. Para usá-lo é necessário o  interpretador Python (baixe [aqui](https://www.python.org/downloads/) e marque a opção "Add Python 3.* to PATH" ao instalar) e a biblioteca do Flask (Execute 'pip install Flask' no cmd para instalá-la).
 
 Para fazer o download do projeto, clique [aqui](https://github.com/ArthurMN/On_no_curso/archive/refs/heads/main.zip). 
