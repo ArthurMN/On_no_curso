@@ -9,7 +9,7 @@ A problemática gira em torno daquelas pessoas que buscam por cursos de tecnolog
 Em resumo, o software desenvolvido é responsável por guardar as informações dos cursos cadastrados e fornecê-las aos alunos através de uma interface simples.
 
 ## Documentação
-Toda a documentação do projeto encontra-se no diretório [docs]().
+Toda a documentação do projeto encontra-se no diretório [docs](https://github.com/ArthurMN/On_no_curso/tree/main/docs).
 
 ## Equipe
 +	ARTHUR MOREIRA DO NASCIMENTO (474295)
