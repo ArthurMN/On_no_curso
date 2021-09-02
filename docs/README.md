@@ -23,3 +23,6 @@ Informações sobre a UML situam-se no diretório [UML](https://github.com/Arthu
 
 ## Design   
 Informações sobre o design encontram-se no diretório [design](https://github.com/ArthurMN/On_no_curso/tree/main/docs/design).	
+
+## Orçamento
+Como o projeto não teve grande complexidade e foi possível desenvovê-lo em um tempo dentro do prazo estipulado que é curto, poucos fatores foram levados em conta para a precificação do software. Consideram-se as datas de início (14/08/2021) e fim do projeto (03/09/2021), o que totalizam 21 dias corridos. Considera-se também o número de integrantes da equipe que são 6, e o tempo de dedicação diário de cada um, que são 8 horas. Inspirando-se em valores dados em aula, tem-se que a hora de trabalho custa R$ 40,00 (valor base), então calculamos o valor total para custear o trabalho da equipe dada pelo produto entre dias corridos, horas diárias, número de integrantes e valor de hora-trabalho, o que totaliza R$ 40.320,00.
